@@ -5,7 +5,7 @@
 # [JDBC在TOMCAT的](#jdbc)
 # [String.format](#String.format)
 # [foreach](#foreach)
-
+# [getResourceAsStream的路徑解釋](#getResourceAsStream)
 
 ## <a name="a">here</a>
 
@@ -67,3 +67,8 @@ public class Test {
 }
 
 ```
+
+## <a name="getResourceAsStream">getResourceAsStream路徑用法</a>
+
+https://www.itread01.com/content/1545629431.html
+
