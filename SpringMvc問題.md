@@ -4,7 +4,6 @@
 
 ```
 
-java=
 package tw.leonchen.model;
 
 import org.hibernate.Session;
