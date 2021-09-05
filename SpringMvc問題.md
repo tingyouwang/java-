@@ -1,5 +1,7 @@
 # [springMvc中的hibernate設定](#hibernate)
 
+# [JNDI設定](#JNDI)
+
 ## <a name="hibernate">getcurrentsession會衝突</a>
 
 ```
@@ -38,5 +40,19 @@ public class AccountDao {
 
 }
 
+
+```
+
+## <a name="JNDI">Tomcate的jndi設置</a>
+
+在server資料夾的context
+```
+<Resource name="connectSqlServerJdbc/OrderService"
+		type="javax.sql.DataSource" 
+		auth="Container" 
+		username="sa"
+		password="12345678"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost:1433;databaseName=LeonPowerTN" />
 
 ```
