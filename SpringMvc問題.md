@@ -1,3 +1,5 @@
+hibernate 中 String hql="xxxxxx"; 注意set 不能打兩個和,逗號要注意!!!!!!!!!!!!!!!!!!!!!!
+
 # [springMvc中的hibernate設定](#hibernate)
 
 # [JNDI設定](#JNDI)
